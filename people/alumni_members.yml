@@ -1,0 +1,111 @@
+    - path: 
+      image: "/files/profiles/"
+      title: "Joanne Beames"
+      lastname: "Beames"
+      subtitle: "Member & Past coordinator"
+      categories: [Alumni, Past coordinators] 
+      started: "2023"
+      ended: "2025"
+
+    - path: 
+      image: "/files/profiles/"
+      title: "Benjamin Kunc"
+      lastname: "Kunc"
+      subtitle: "Member & Past coordinator"
+      categories: [Alumni, Past coordinators] 
+      started: "2023"
+      ended: "2025"
+      
+    - path: 
+      image: "/files/profiles/"
+      title: "Ginette Lafit"
+      lastname: "Lafit"
+      subtitle: "Member"
+      categories: [Alumni] 
+      started: "2022"
+      ended: "2023"
+      
+    - path: 
+      image: "/files/profiles/"
+      title: "Naeem Muhammad"
+      lastname: "Muhammad"
+      subtitle: "Member"
+      categories: [Alumni] 
+      started: "2020"
+      ended: "2024"
+      
+      
+    - path: 
+      image: "/files/profiles/"
+      title: "Benjamín Šimsa"
+      lastname: "Šimsa"
+      subtitle: "Member & Past coordinator"
+      categories: [Alumni, Past coordinators] 
+      started: "2022"
+      ended: "2024"
+ 
+    - path: 
+      image: "/files/profiles/"
+      title: "Natalie Schroyens"
+      lastname: "Schroyens"
+      subtitle: "Member"
+      categories: [Alumni] 
+      started: "2021"
+      ended: "2021"      
+           
+      
+    - path: 
+      image: "/files/profiles/"
+      title: "Stien Van De Plas"
+      lastname: "Van De Plas"
+      subtitle: "Member"
+      categories: [Alumni] 
+      started: "2021"
+      ended: "2022"      
+      
+      
+    - path: 
+      image: "/files/profiles/"
+      title: "Pieter Moors"
+      lastname: "Beames"
+      subtitle: "Member & Co-founder"
+      categories: [Alumni, Co-founders] 
+      started: "2020"
+      ended: "2020"
+      
+    - path: 
+      image: "/files/profiles/"
+      title: "Lennert Coenen"
+      lastname: "Coenen"
+      subtitle: "Member & Co-founder"
+      categories: [Alumni, Co-founders] 
+      started: "2020"
+      ended: "2021"  
+      
+    - path: 
+      image: "/files/profiles/"
+      title: "Amélie Godefroidt"
+      lastname: "Godefroidt"
+      subtitle: "Member & Co-founder"
+      categories: [Alumni, Co-founders] 
+      started: "2020"
+      ended: "2023"
+      
+    - path: 
+      image: "/files/profiles/"
+      title: "Aline Claesen"
+      lastname: "Claesen"
+      subtitle: "Member & Co-founder"
+      categories: [Alumni, Co-founders] 
+      started: "2020"
+      ended: "2024"
+      
+      
+    - path: 
+      image: "/files/profiles/"
+      title: "Olivia Kirtley"
+      lastname: "Kirtley"
+      subtitle: "Member, Co-founder, & Past coordinator"
+      categories: [Alumni, Past coordinators, Co-founders] 
+      started: "2020"
+      ended: "2023"

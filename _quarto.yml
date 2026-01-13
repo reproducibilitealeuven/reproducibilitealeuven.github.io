@@ -18,12 +18,12 @@ website:
     left:   # You can comment out all navigation items here if you just like to keep the index page only
       - text: Home
         href: index.qmd      
-      - text: News
-        href: posts.qmd
+      # - text: News
+      #   href: posts.qmd
       - text: Sessions
         href: sessions.qmd
-      - text: Outreach
-        href: outreach.qmd
+      # - text: Outreach
+      #   href: outreach.qmd
       - text: Organizing team
         href: people.qmd
       # - text: About

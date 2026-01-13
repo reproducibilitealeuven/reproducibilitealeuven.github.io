@@ -1,0 +1,174 @@
+    - path: 
+      image: "/files/profiles/"
+      title: "Literature reviews reimagined"
+      author: "Guest speaker: Pascale Maas"
+      categories: [] 
+      date: 2025-11-18
+
+    - path: 
+      image: "/files/profiles/"
+      title: "Reflections on the reviewing process"
+      author: "Peer-Ole Jacobsen"
+      categories: [] 
+      date: 2025-10-07
+
+    - path: 
+      image: "/files/profiles/"
+      title: "Reproducibility made easy: Open resources for all disciplines"
+      author: "Jan-Peter Sandler"
+      categories: [] 
+      date: 2025-05-06 
+
+    - path: 
+      image: "/files/profiles/"
+      title: "Between the quality and quantity of science"
+      author: "Peer-Ole Jacobsen"
+      categories: [] 
+      date: 2025-03-26 
+
+    - path: 
+      image: "/files/profiles/"
+      title: "Generative AI and Open Science"
+      author: "Eline Van Geert"
+      categories: [] 
+      date: 2024-11-27 
+
+    - path: 
+      image: "/files/profiles/"
+      title: "Open science interventions to improve reproducibility and replicability of research"
+      author: "Guest speaker: Magdalena Kozula"
+      categories: [] 
+      date: 2024-10-09 
+
+    - path: 
+      image: "/files/profiles/"
+      title: "Crowdsourcing in research"
+      author: "Benjamin Kunc"
+      categories: [] 
+      date: 2024-06-05 
+
+    - path: 
+      image: "/files/profiles/"
+      title: "Citizen science"
+      author: "Benjamin Kunc"
+      categories: [] 
+      date: 2024-03-27 
+
+    - path: 
+      image: "/files/profiles/"
+      title: "The Chinese Open Science Network (COSN): Building an open science community from scratch"
+      author: "Olivia Kirtley"
+      categories: [] 
+      date: 2023-05-23 
+
+    - path: 
+      image: "/files/profiles/"
+      title: "Redesign open science for Asia, Africa, and Latin America"
+      author: "Benjamín Šimsa"
+      categories: [] 
+      date: 2023-04-27 
+      
+    - path: 
+      image: "/files/profiles/"
+      title: "Fostering a research integrity culture"
+      author: "Olivia Kirtley"
+      categories: [] 
+      date: 2022-12-14 
+
+    - path: 
+      image: "/files/profiles/"
+      title: "Methods over metrics"
+      author: "Ginette Lafit"
+      categories: [] 
+      date: 2022-11-23 
+
+    - path: 
+      image: "/files/profiles/"
+      title: "Verification reports"
+      author: "Benjamín Šimsa"
+      categories: [] 
+      date: 2022-10-25 
+
+    - path: 
+      image: "/files/profiles/"
+      title: "Implementing open science as a teacher/mentor"
+      author: "Guest speaker: Sam Parsons"
+      categories: [] 
+      date: 2022-05-16 
+
+    - path: 
+      image: "/files/profiles/"
+      title: "Inclusivity and diversity in (open) science"
+      author: "Olivia Kirtley"
+      categories: [] 
+      date: 2022-04-26 
+      
+    - path: 
+      image: "/files/profiles/"
+      title: "Transparent data visualizations"
+      author: "Eline Van Geert"
+      categories: [] 
+      date: 2022-03-31 
+      
+    - path: 
+      image: "/files/profiles/"
+      title: "New topics in responsible research practices"
+      author: "Aline Claesen"
+      categories: [] 
+      date: 2022-02-16 
+      
+    - path: 
+      image: "/files/profiles/"
+      title: "Implementing open science as a research group"
+      author: "Olivia Kirtley"
+      categories: [] 
+      date: 2021-11-16 
+
+    - path: 
+      image: "/files/profiles/"
+      title: "Implementing open science as an individual researcher"
+      author: "Aline Claesen"
+      categories: [] 
+      date: 2021-10-21    
+        
+    - path: 
+      image: "/files/profiles/"
+      title: "Open data"
+      author: "Olivia Kirtley"
+      categories: [] 
+      date: 2021-06-17    
+    
+    - path: 
+      image: "/files/profiles/"
+      title: "Open materials"
+      author: "Eline Van Geert"
+      categories: [] 
+      date: 2021-04-26
+      
+    - path: 
+      image: "/files/profiles/"
+      title: "Preregistration"
+      author: "Aline Claesen"
+      categories: [] 
+      date: 2021-02-25   
+          
+    - path: 
+      image: "/files/profiles/"
+      title: "But, what if I was wrong?"
+      author: "Olivia Kirtley"
+      categories: [] 
+      date: 2020-12-03   
+      
+    - path: 
+      image: "/files/profiles/"
+      title: "How to deal with the problem?"
+      author: "Aline Claesen"
+      categories: [] 
+      date: 2020-10-29
+      
+    - path: 
+      image: "/files/profiles/"
+      title: "What was the problem again?"
+      author: "Pieter Moors"
+      categories: [] 
+      date: 2020-02-27

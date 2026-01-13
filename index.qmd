@@ -21,24 +21,36 @@ about:
       target: _blank
     - text: "{{< fa brands bluesky >}} Bluesky"
       href: https://bsky.app/profile/leuventea.bsky.social
+      target: _blank 
+    - text: "{{< ai osf >}} OSF"
+      href: https://osf.io/zjbkt/
       target: _blank   
-
-listing:   # Comment the listing section and delete corresponding lines in the index.qmd file to remove the recent posts
-  - id: recent-posts
-    contents: 
-      - posts
-      - posts/post-links.yml
-    exclude:
-      title: ""
-    type: grid
-    max-items: 3
-#    image-height: 150px
-    page-size: 3 #set same as max-times to remove the page number setting
-    fields: [image, date, title, subtitle]
-    max-description-length: 75
-    sort: 
-      - "date desc"
-      - "title asc"
+    - text: "<img src='/files/images/KULeuven.svg' style='height:18px;'> KU Leuven page"
+      href: https://www.kuleuven.be/open-science/open-science-at-ku-leuven/researchers-initiatives/reproducibilitea
+      target: _blank   
+    - text: "<img src='/files/images/reproducibilitea_logo.png' style='height:18px;'> ReproducibiliTea Global"
+      href: https://reproducibilitea.org/
+      target: _blank   
+    - text: "<img src='/files/images/reproducibilitealeuven_logo.png' style='height:20px;'>Subscribe for next sessions"
+      href: https://tinyurl.com/reprotealvn
+      target: _blank       
+      
+# listing:   # Comment the listing section and delete corresponding lines in the index.qmd file to remove the recent posts
+#   - id: recent-posts
+#     contents: 
+#       - posts
+#       - posts/post-links.yml
+#     exclude:
+#       title: ""
+#     type: grid
+#     max-items: 3
+# #    image-height: 150px
+#     page-size: 3 #set same as max-times to remove the page number setting
+#     fields: [image, date, title, subtitle]
+#     max-description-length: 75
+#     sort: 
+#       - "date desc"
+#       - "title asc"
 ---
 
 :::{#hero-heading}
@@ -48,14 +60,16 @@ ReproducibiliTea Leuven is a grassroots, early career researcher-led initiative 
 
 The Leuven chapter of ReproducibiliTea began in 2020. Our primary activity is a journal club that takes place roughly 2x per semester, during which we discuss articles or other resources (e.g. podcasts, online tools) relating to open science practices. Each journal club session is led by a member of the ReproducibiliTea Leuven organising team and focuses on a different challenge or (potential) solution to addressing issues of transparency, reproducibility, and replicability.
 
+Subscribe here to attend the next sessions: <https://tinyurl.com/reprotealvn>
+
 :::
 
 
 <!-- Delete the following section and delete corresponding lines in the yaml part to remove the recent posts -->
-## Recent Posts
-Check out the latest &nbsp;[Papers](posts.qmd#category=paper)&nbsp;, &nbsp;[News](posts.qmd#category=news)&nbsp;, &nbsp;[Events](posts.qmd#category=event)&nbsp;, and &nbsp;[More »](/posts.qmd)
+<!-- ## Recent Posts -->
+<!-- Check out the latest &nbsp;[Papers](posts.qmd#category=paper)&nbsp;, &nbsp;[News](posts.qmd#category=news)&nbsp;, &nbsp;[Events](posts.qmd#category=event)&nbsp;, and &nbsp;[More »](/posts.qmd) -->
 
-:::{#recent-posts}
-:::
+<!-- :::{#recent-posts} -->
+<!-- ::: -->
 
-<p align="right">[All Posts »](/posts.qmd)</p>
+<!-- <p align="right">[All Posts »](/posts.qmd)</p> -->

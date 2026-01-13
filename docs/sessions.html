@@ -9,7 +9,7 @@
 <meta name="author" content="ReproducibiliTea Leuven">
 <meta name="description" content="ReproducibiliTea Leuven">
 
-<title>ReproducibiliTea Leuven</title>
+<title>ReproducibiliTea Leuven sessions – ReproducibiliTea Leuven</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,10 +33,13 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href=".//files/images/reproducibilitealeuven_logo.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -44,8 +47,6 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-6957ec2732917c3acd9217c3064faa9e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,6 +73,63 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-upcoming-sessions .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-image","listing-title","listing-author","listing-categories","listing-date","listing-location"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-upcoming-sessions'] = new List('listing-upcoming-sessions', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-past-sessions .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-image","listing-title","listing-author","listing-categories","listing-date"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-past-sessions'] = new List('listing-past-sessions', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id="></script>
 
 <script type="text/javascript">
@@ -102,6 +160,35 @@ https://badge.dimensions.ai/
 
 <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -124,11 +211,11 @@ https://badge.dimensions.ai/
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./sessions.html"> 
+    <a class="nav-link active" href="./sessions.html" aria-current="page"> 
 <span class="menu-text">Sessions</span></a>
   </li>  
   <li class="nav-item">
@@ -165,66 +252,461 @@ https://badge.dimensions.ai/
 <!-- main -->
 <main class="content column-page" id="quarto-document-content">
 
-
-
-
-<div class="quarto-about-trestles column-page">
-  <div class="about-entity">
-    <img src="/files/images/reproducibilitealeuven_logo.png" class="about-image
-  rounded " style="width: 70%;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">ReproducibiliTea Leuven</h1>
+<h1 class="title"><img src="./files/images/reproducibilitealeuven_logo.png" style="height:150px; margin-right: 10px; ">ReproducibiliTea Leuven sessions</h1>
 </div>
+
+
+
 <div class="quarto-title-meta column-page">
+
+    
+  
+    
   </div>
+  
+
+
 </header>
-    <div class="about-links">
-  <a href="mailto:reproducibilitealeuven@kuleuven.be" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">E-mail</span>
-  </a>
-  <a href="https://www.linkedin.com/company/reproducibilitea-leuven/?viewAsMember=true" class="about-link" rel="" target="_blank">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="https://bsky.app/profile/leuventea.bsky.social" class="about-link" rel="" target="_blank">
-     <span class="about-link-text"><i class="fa-brands fa-bluesky" aria-label="bluesky"></i> Bluesky</span>
-  </a>
-  <a href="https://osf.io/zjbkt/" class="about-link" rel="" target="_blank">
-     <span class="about-link-text"><i class="ai  ai-osf"></i> OSF</span>
-  </a>
-  <a href="https://www.kuleuven.be/open-science/open-science-at-ku-leuven/researchers-initiatives/reproducibilitea" class="about-link" rel="" target="_blank">
-     <span class="about-link-text"><img src="/files/images/KULeuven.svg" style="height:18px;"> KU Leuven page</span>
-  </a>
-  <a href="https://reproducibilitea.org/" class="about-link" rel="" target="_blank">
-     <span class="about-link-text"><img src="/files/images/reproducibilitea_logo.png" style="height:18px;"> ReproducibiliTea Global</span>
-  </a>
-  <a href="https://tinyurl.com/reprotealvn" class="about-link" rel="" target="_blank">
-     <span class="about-link-text"><img src="/files/images/reproducibilitealeuven_logo.png" style="height:20px;">Subscribe for next sessions</span>
-  </a>
+
+
+<section id="upcoming-sessions" class="level2">
+<h2 class="anchored" data-anchor-id="upcoming-sessions">Upcoming sessions</h2>
+<div id="listing-upcoming-sessions" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-5">
+<div class="g-col-1" data-index="0" data-categories="" data-listing-date-sort="1773846000000">
+<a href="https://tinyurl.com/reprotealvn" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="./files/images/reproducibilitealeuven_logo.png" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+On objectivity in science
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+2026, March 18
 </div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="" data-listing-date-sort="1779890400000">
+<a href="https://tinyurl.com/reprotealvn" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="./files/images/reproducibilitealeuven_logo.png" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Writing and sharing research code
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+2026, May 27
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="past-sessions" class="level2">
+<h2 class="anchored" data-anchor-id="past-sessions">Past sessions</h2>
+<div id="listing-past-sessions" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-past-sessions-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-past-sessions'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-title-sort" data-direction="asc">
+        Session
+      </option>
+      <option value="listing-author" data-direction="asc">
+        Session leader
+      </option>
+      <option value="listing-date-sort" data-direction="asc">
+        Date - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Date - Newest
+      </option>
+    </select>
   </div>
-  <div class="about-contents"><div id="hero-heading">
-<p><br><br><br> ReproducibiliTea Leuven is a grassroots, early career researcher-led initiative to foster the use of open science practices in all fields of research. The original ReproducibiliTea group was founded by Sophia Crüwell, Amy Orben, and Sam Parsons at the University of Oxford in 2018, and has now grown into a global initiative across 99 institutions and 24 countries.</p>
-<p>The Leuven chapter of ReproducibiliTea began in 2020. Our primary activity is a journal club that takes place roughly 2x per semester, during which we discuss articles or other resources (e.g.&nbsp;podcasts, online tools) relating to open science practices. Each journal club session is led by a member of the ReproducibiliTea Leuven organising team and focuses on a different challenge or (potential) solution to addressing issues of transparency, reproducibility, and replicability.</p>
-<p>Subscribe here to attend the next sessions: <a href="https://tinyurl.com/reprotealvn" class="uri">https://tinyurl.com/reprotealvn</a></p>
-</div></div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+
+<th>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Session</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Session leader</a>
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-categories="" data-listing-date-sort="1763420400000" data-listing-title-sort="Literature reviews reimagined">
+<td>
+<span class="listing-date">2025, November 18</span>
+</td>
+<td>
+<span class="listing-title">Literature reviews reimagined</span>
+</td>
+<td>
+<span class="listing-author">Guest speaker: Pascale Maas</span>
+</td>
+
+</tr>
+
+<tr data-index="1" data-categories="" data-listing-date-sort="1759788000000" data-listing-title-sort="Reflections on the reviewing process">
+<td>
+<span class="listing-date">2025, October 7</span>
+</td>
+<td>
+<span class="listing-title">Reflections on the reviewing process</span>
+</td>
+<td>
+<span class="listing-author">Peer-Ole Jacobsen</span>
+</td>
+
+</tr>
+
+<tr data-index="2" data-categories="" data-listing-date-sort="1746482400000" data-listing-title-sort="Reproducibility made easy: Open resources for all disciplines">
+<td>
+<span class="listing-date">2025, May 6</span>
+</td>
+<td>
+<span class="listing-title">Reproducibility made easy: Open resources for all disciplines</span>
+</td>
+<td>
+<span class="listing-author">Jan-Peter Sandler</span>
+</td>
+
+</tr>
+
+<tr data-index="3" data-categories="" data-listing-date-sort="1742943600000" data-listing-title-sort="Between the quality and quantity of science">
+<td>
+<span class="listing-date">2025, March 26</span>
+</td>
+<td>
+<span class="listing-title">Between the quality and quantity of science</span>
+</td>
+<td>
+<span class="listing-author">Peer-Ole Jacobsen</span>
+</td>
+
+</tr>
+
+<tr data-index="4" data-categories="" data-listing-date-sort="1732662000000" data-listing-title-sort="Generative AI and Open Science">
+<td>
+<span class="listing-date">2024, November 27</span>
+</td>
+<td>
+<span class="listing-title">Generative AI and Open Science</span>
+</td>
+<td>
+<span class="listing-author">Eline Van Geert</span>
+</td>
+
+</tr>
+
+<tr data-index="5" data-categories="" data-listing-date-sort="1728424800000" data-listing-title-sort="Open science interventions to improve reproducibility and replicability of research">
+<td>
+<span class="listing-date">2024, October 9</span>
+</td>
+<td>
+<span class="listing-title">Open science interventions to improve reproducibility and replicability of research</span>
+</td>
+<td>
+<span class="listing-author">Guest speaker: Magdalena Kozula</span>
+</td>
+
+</tr>
+
+<tr data-index="6" data-categories="" data-listing-date-sort="1717538400000" data-listing-title-sort="Crowdsourcing in research">
+<td>
+<span class="listing-date">2024, June 5</span>
+</td>
+<td>
+<span class="listing-title">Crowdsourcing in research</span>
+</td>
+<td>
+<span class="listing-author">Benjamin Kunc</span>
+</td>
+
+</tr>
+
+<tr data-index="7" data-categories="" data-listing-date-sort="1711494000000" data-listing-title-sort="Citizen science">
+<td>
+<span class="listing-date">2024, March 27</span>
+</td>
+<td>
+<span class="listing-title">Citizen science</span>
+</td>
+<td>
+<span class="listing-author">Benjamin Kunc</span>
+</td>
+
+</tr>
+
+<tr data-index="8" data-categories="" data-listing-date-sort="1684792800000" data-listing-title-sort="The Chinese Open Science Network (COSN): Building an open science community from scratch">
+<td>
+<span class="listing-date">2023, May 23</span>
+</td>
+<td>
+<span class="listing-title">The Chinese Open Science Network (COSN): Building an open science community from scratch</span>
+</td>
+<td>
+<span class="listing-author">Olivia Kirtley</span>
+</td>
+
+</tr>
+
+<tr data-index="9" data-categories="" data-listing-date-sort="1682546400000" data-listing-title-sort="Redesign open science for Asia, Africa, and Latin America">
+<td>
+<span class="listing-date">2023, April 27</span>
+</td>
+<td>
+<span class="listing-title">Redesign open science for Asia, Africa, and Latin America</span>
+</td>
+<td>
+<span class="listing-author">Benjamín Šimsa</span>
+</td>
+
+</tr>
+
+<tr data-index="10" data-categories="" data-listing-date-sort="1670972400000" data-listing-title-sort="Fostering a research integrity culture">
+<td>
+<span class="listing-date">2022, December 14</span>
+</td>
+<td>
+<span class="listing-title">Fostering a research integrity culture</span>
+</td>
+<td>
+<span class="listing-author">Olivia Kirtley</span>
+</td>
+
+</tr>
+
+<tr data-index="11" data-categories="" data-listing-date-sort="1669158000000" data-listing-title-sort="Methods over metrics">
+<td>
+<span class="listing-date">2022, November 23</span>
+</td>
+<td>
+<span class="listing-title">Methods over metrics</span>
+</td>
+<td>
+<span class="listing-author">Ginette Lafit</span>
+</td>
+
+</tr>
+
+<tr data-index="12" data-categories="" data-listing-date-sort="1666648800000" data-listing-title-sort="Verification reports">
+<td>
+<span class="listing-date">2022, October 25</span>
+</td>
+<td>
+<span class="listing-title">Verification reports</span>
+</td>
+<td>
+<span class="listing-author">Benjamín Šimsa</span>
+</td>
+
+</tr>
+
+<tr data-index="13" data-categories="" data-listing-date-sort="1652652000000" data-listing-title-sort="Implementing open science as a teacher/mentor">
+<td>
+<span class="listing-date">2022, May 16</span>
+</td>
+<td>
+<span class="listing-title">Implementing open science as a teacher/mentor</span>
+</td>
+<td>
+<span class="listing-author">Guest speaker: Sam Parsons</span>
+</td>
+
+</tr>
+
+<tr data-index="14" data-categories="" data-listing-date-sort="1650924000000" data-listing-title-sort="Inclusivity and diversity in (open) science">
+<td>
+<span class="listing-date">2022, April 26</span>
+</td>
+<td>
+<span class="listing-title">Inclusivity and diversity in (open) science</span>
+</td>
+<td>
+<span class="listing-author">Olivia Kirtley</span>
+</td>
+
+</tr>
+
+<tr data-index="15" data-categories="" data-listing-date-sort="1648677600000" data-listing-title-sort="Transparent data visualizations">
+<td>
+<span class="listing-date">2022, March 31</span>
+</td>
+<td>
+<span class="listing-title">Transparent data visualizations</span>
+</td>
+<td>
+<span class="listing-author">Eline Van Geert</span>
+</td>
+
+</tr>
+
+<tr data-index="16" data-categories="" data-listing-date-sort="1644966000000" data-listing-title-sort="New topics in responsible research practices">
+<td>
+<span class="listing-date">2022, February 16</span>
+</td>
+<td>
+<span class="listing-title">New topics in responsible research practices</span>
+</td>
+<td>
+<span class="listing-author">Aline Claesen</span>
+</td>
+
+</tr>
+
+<tr data-index="17" data-categories="" data-listing-date-sort="1637017200000" data-listing-title-sort="Implementing open science as a research group">
+<td>
+<span class="listing-date">2021, November 16</span>
+</td>
+<td>
+<span class="listing-title">Implementing open science as a research group</span>
+</td>
+<td>
+<span class="listing-author">Olivia Kirtley</span>
+</td>
+
+</tr>
+
+<tr data-index="18" data-categories="" data-listing-date-sort="1634767200000" data-listing-title-sort="Implementing open science as an individual researcher">
+<td>
+<span class="listing-date">2021, October 21</span>
+</td>
+<td>
+<span class="listing-title">Implementing open science as an individual researcher</span>
+</td>
+<td>
+<span class="listing-author">Aline Claesen</span>
+</td>
+
+</tr>
+
+<tr data-index="19" data-categories="" data-listing-date-sort="1623880800000" data-listing-title-sort="Open data">
+<td>
+<span class="listing-date">2021, June 17</span>
+</td>
+<td>
+<span class="listing-title">Open data</span>
+</td>
+<td>
+<span class="listing-author">Olivia Kirtley</span>
+</td>
+
+</tr>
+
+<tr data-index="20" data-categories="" data-listing-date-sort="1619388000000" data-listing-title-sort="Open materials">
+<td>
+<span class="listing-date">2021, April 26</span>
+</td>
+<td>
+<span class="listing-title">Open materials</span>
+</td>
+<td>
+<span class="listing-author">Eline Van Geert</span>
+</td>
+
+</tr>
+
+<tr data-index="21" data-categories="" data-listing-date-sort="1614207600000" data-listing-title-sort="Preregistration">
+<td>
+<span class="listing-date">2021, February 25</span>
+</td>
+<td>
+<span class="listing-title">Preregistration</span>
+</td>
+<td>
+<span class="listing-author">Aline Claesen</span>
+</td>
+
+</tr>
+
+<tr data-index="22" data-categories="" data-listing-date-sort="1606950000000" data-listing-title-sort="But, what if I was wrong?">
+<td>
+<span class="listing-date">2020, December 3</span>
+</td>
+<td>
+<span class="listing-title">But, what if I was wrong?</span>
+</td>
+<td>
+<span class="listing-author">Olivia Kirtley</span>
+</td>
+
+</tr>
+
+<tr data-index="23" data-categories="" data-listing-date-sort="1603926000000" data-listing-title-sort="How to deal with the problem?">
+<td>
+<span class="listing-date">2020, October 29</span>
+</td>
+<td>
+<span class="listing-title">How to deal with the problem?</span>
+</td>
+<td>
+<span class="listing-author">Aline Claesen</span>
+</td>
+
+</tr>
+
+<tr data-index="24" data-categories="" data-listing-date-sort="1582758000000" data-listing-title-sort="What was the problem again?">
+<td>
+<span class="listing-date">2020, February 27</span>
+</td>
+<td>
+<span class="listing-title">What was the problem again?</span>
+</td>
+<td>
+<span class="listing-author">Pieter Moors</span>
+</td>
+
+</tr>
+
+</tbody>
+</table>
+<div class="listing-no-matching d-none">No matching items</div>
 </div>
 
-<!-- Delete the following section and delete corresponding lines in the yaml part to remove the recent posts -->
-<!-- ## Recent Posts -->
-<!-- Check out the latest &nbsp;[Papers](posts.qmd#category=paper)&nbsp;, &nbsp;[News](posts.qmd#category=news)&nbsp;, &nbsp;[Events](posts.qmd#category=event)&nbsp;, and &nbsp;[More »](/posts.qmd) -->
-<!-- :::{#recent-posts} -->
-<!-- ::: -->
-<!-- <p align="right">[All Posts »](/posts.qmd)</p> -->
 
 
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

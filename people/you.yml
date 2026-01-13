@@ -1,0 +1,7 @@
+    - path: 
+      image: "/files/profiles/you.png"
+      title: "You?"
+      lastname: "Y"
+      subtitle: "Contact us to join!"
+      categories: [Member] 
+      started: 2026

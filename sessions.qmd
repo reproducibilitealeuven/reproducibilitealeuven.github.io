@@ -1,45 +1,42 @@
 ---
-title: "<img src='/files/images/reproducibilitealeuven_logo.png' style='height:150px; margin-right: 10px; '>ReproducibiliTeam Leuven"
+title: "<img src='/files/images/reproducibilitealeuven_logo.png' style='height:150px; margin-right: 10px; '>ReproducibiliTea Leuven sessions"
 # subtitle: "Current members"
 image: "/files/images/reproducibilitealeuven_logo.png"
 page-layout: full
 listing:  #an example of listing external links
 #  template: item-default-external.ejs
-- id: members
-  # sort: "lastname asc"
+- id: upcoming-sessions
+  sort: "date asc"
   type: grid
-  fields: [image, title, subtitle]
+  fields: [image, title, date]
   grid-item-align: center
   grid-columns: 5
   image-height: 200px
+  date-format: "YYYY, MMMM D"
   # categories: true
 #  sort-ui: true
 #  filter-ui: true
   contents: 
   # Use individual files here as you may use each person at different occasions such as events, news.
-    - /people/peerole_jacobsen.yml 
-    - /people/janpeter_sandler.yml  
-    - /people/myluong_vuong.yml  
-    - /people/eline_vangeert.yml 
-    - /people/you.yml  
+    - upcoming-sessions.yml 
 
-- id: alumni
-  sort: "ended desc"
+- id: past-sessions
+  sort: "date desc"
   type: table
-  fields: [title, subtitle, started, ended]
+  fields: [date, title, author]
   grid-item-align: center  
   grid-columns: 5
   image-height: 25px
+  date-format: "YYYY, MMMM D"
   field-display-names: 
-      title: "Name"
-      subtitle: "Role"
-      started: "Started"
-      ended: "Ended"
+      title: "Session"
+      date: "Date"
+      author: "Session leader"
 #  categories: true
 #  sort-ui: true
 #  filter-ui: true
   contents: 
-    - /people/alumni_members.yml  
+    - past-sessions.yml  
  
 
 page-navigation: false
@@ -52,14 +49,14 @@ format:
 ---
 
 
-## Current organizers
+## Upcoming sessions
 
-:::{#members}
+:::{#upcoming-sessions}
 :::
 
 
-## Past organizers
+## Past sessions
 
-:::{#alumni}
+:::{#past-sessions}
 :::
 

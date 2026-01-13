@@ -1,0 +1,7 @@
+    - path: https://scholar.google.com/citations?user=OI0Og-QAAAAJ&hl=en
+      image: "/files/profiles/myluong_vuong.JPG"
+      title: "My Luong Vuong"
+      lastname: "Vuong"
+      subtitle: "Member"
+      categories: [Member] 
+      started: 2025

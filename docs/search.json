@@ -1,142 +1,51 @@
 [
   {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "What’s New & Updated",
+    "objectID": "sessions.html",
+    "href": "sessions.html",
+    "title": "ReproducibiliTea Leuven sessions",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nQuarto Academic Website Examples and Tips\n\n\n\n\n\n\nnews\n\n\n\nExamples and tips for Quarto Academic Website\n\n\n\n\n\nOct 15, 2024\n\n\nDr. Gang He\n\n\n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\n\n\n\n\nevent\n\npresentation\n\n\n\nAbout Event item.\n\n\n\n\n\nSep 3, 2024\n\n\nEvent\n\n\n\n\n\n\n\n\n\n\n\n\nNews item\n\n\n\n\n\n\nnews\n\n\n\nAbout new item\n\n\n\n\n\nJun 24, 2024\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\n\nCan quantum-mechanical description of physical reality be considered complete?\n\n\nPhysical Review\n\n\n\npaper\n\n\n\nOne is thus led to conclude that the description of reality as given by a wave function is not complete.\n\n\n\n\n\nMay 15, 1935\n\n\nAlbert Einstein, Boris Podolsky, Nathan Rosen\n\n\n\n\n\nNo matching items"
+    "text": "2026, March 18\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2026, May 27\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
+    "objectID": "sessions.html#upcoming-sessions",
+    "href": "sessions.html#upcoming-sessions",
+    "title": "ReproducibiliTea Leuven sessions",
     "section": "",
-    "text": "Notes: * corresponding author; GS graduate student advisee; VS visiting scholar;  ESI Highly Cited Paper (top 1%);  ESI Hot Paper (top 0.1%)\nTotal citations as of January 2025:"
+    "text": "2026, March 18\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2026, May 27\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "publications.html#selected-work",
-    "href": "publications.html#selected-work",
-    "title": "Publications",
-    "section": "Selected Work",
-    "text": "Selected Work\nEinstein, A., Podolsky, B., & Rosen, N. (1935). Can quantum-mechanical description of physical reality be considered complete?. Physical review, 47(10), 777. [pdf] [code and data]   \n\n\n\n\n\n\nEinstein, A. (1965). Concerning an heuristic point of view toward the emission and transformation of light. American Journal of Physics, 33(5), 367. [pdf]"
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Order By\n      Default\n      \n      \n      \n        Title\n      \n      \n        Team\n      \n      \n        Funder\n      \n      \n        Description\n      \n      \n        Start\n      \n      \n        End\n      \n      \n        Funding\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nTitle\n\n\n\nTeam\n\n\n\nFunder\n\n\n\nDescription\n\n\n\nFunding\n\n\n\nStart\n\n\n\nEnd\n\n\n\n\n\n\n\n\n\n\n\nExploring \n\n\nAcademic Website\n\n\nFunder\n\n\nThe goal of this project is to investigate .\n\n\n$0\n\n\n2024\n\n\n2025\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/news-title/index.html",
-    "href": "posts/news-title/index.html",
-    "title": "News item",
-    "section": "",
-    "text": "About the news"
-  },
-  {
-    "objectID": "posts/news-title/index.html#summary",
-    "href": "posts/news-title/index.html#summary",
-    "title": "News item",
-    "section": "",
-    "text": "About the news"
-  },
-  {
-    "objectID": "posts/paper-title/index.html#abstract",
-    "href": "posts/paper-title/index.html#abstract",
-    "title": "Can quantum-mechanical description of physical reality be considered complete?",
-    "section": "Abstract",
-    "text": "Abstract\nIn a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete."
-  },
-  {
-    "objectID": "posts/paper-title/index.html#links",
-    "href": "posts/paper-title/index.html#links",
-    "title": "Can quantum-mechanical description of physical reality be considered complete?",
-    "section": "Links",
-    "text": "Links\nPublished paper"
-  },
-  {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "Fall 2024,   Fall 2023\nClass 1 introduction."
-  },
-  {
-    "objectID": "teaching.html#class-1",
-    "href": "teaching.html#class-1",
-    "title": "Teaching",
-    "section": "",
-    "text": "Fall 2024,   Fall 2023\nClass 1 introduction."
-  },
-  {
-    "objectID": "teaching.html#class-2",
-    "href": "teaching.html#class-2",
-    "title": "Teaching",
-    "section": "Class 2",
-    "text": "Class 2\n\n\n\n\n\nSpring 2025,   Fall 2023\nClass 2 introduction."
-  },
-  {
-    "objectID": "teaching.html#class-3",
-    "href": "teaching.html#class-3",
-    "title": "Teaching",
-    "section": "Class 3",
-    "text": "Class 3\n\n\n\n\n\nSpring 2025,   Spring 2024\nClass 3 introduction."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "Quarto Academic\nSchool\nCollege\nUniversity\nAddress:\nPhone:\nE-mail:"
+    "objectID": "sessions.html#past-sessions",
+    "href": "sessions.html#past-sessions",
+    "title": "ReproducibiliTea Leuven sessions",
+    "section": "Past sessions",
+    "text": "Past sessions\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Session\n      \n      \n        Session leader\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nSession\n\n\n\nSession leader\n\n\n\n\n\n\n\n\n2025, November 18\n\n\nLiterature reviews reimagined\n\n\nGuest speaker: Pascale Maas\n\n\n\n\n\n\n2025, October 7\n\n\nReflections on the reviewing process\n\n\nPeer-Ole Jacobsen\n\n\n\n\n\n\n2025, May 6\n\n\nReproducibility made easy: Open resources for all disciplines\n\n\nJan-Peter Sandler\n\n\n\n\n\n\n2025, March 26\n\n\nBetween the quality and quantity of science\n\n\nPeer-Ole Jacobsen\n\n\n\n\n\n\n2024, November 27\n\n\nGenerative AI and Open Science\n\n\nEline Van Geert\n\n\n\n\n\n\n2024, October 9\n\n\nOpen science interventions to improve reproducibility and replicability of research\n\n\nGuest speaker: Magdalena Kozula\n\n\n\n\n\n\n2024, June 5\n\n\nCrowdsourcing in research\n\n\nBenjamin Kunc\n\n\n\n\n\n\n2024, March 27\n\n\nCitizen science\n\n\nBenjamin Kunc\n\n\n\n\n\n\n2023, May 23\n\n\nThe Chinese Open Science Network (COSN): Building an open science community from scratch\n\n\nOlivia Kirtley\n\n\n\n\n\n\n2023, April 27\n\n\nRedesign open science for Asia, Africa, and Latin America\n\n\nBenjamín Šimsa\n\n\n\n\n\n\n2022, December 14\n\n\nFostering a research integrity culture\n\n\nOlivia Kirtley\n\n\n\n\n\n\n2022, November 23\n\n\nMethods over metrics\n\n\nGinette Lafit\n\n\n\n\n\n\n2022, October 25\n\n\nVerification reports\n\n\nBenjamín Šimsa\n\n\n\n\n\n\n2022, May 16\n\n\nImplementing open science as a teacher/mentor\n\n\nGuest speaker: Sam Parsons\n\n\n\n\n\n\n2022, April 26\n\n\nInclusivity and diversity in (open) science\n\n\nOlivia Kirtley\n\n\n\n\n\n\n2022, March 31\n\n\nTransparent data visualizations\n\n\nEline Van Geert\n\n\n\n\n\n\n2022, February 16\n\n\nNew topics in responsible research practices\n\n\nAline Claesen\n\n\n\n\n\n\n2021, November 16\n\n\nImplementing open science as a research group\n\n\nOlivia Kirtley\n\n\n\n\n\n\n2021, October 21\n\n\nImplementing open science as an individual researcher\n\n\nAline Claesen\n\n\n\n\n\n\n2021, June 17\n\n\nOpen data\n\n\nOlivia Kirtley\n\n\n\n\n\n\n2021, April 26\n\n\nOpen materials\n\n\nEline Van Geert\n\n\n\n\n\n\n2021, February 25\n\n\nPreregistration\n\n\nAline Claesen\n\n\n\n\n\n\n2020, December 3\n\n\nBut, what if I was wrong?\n\n\nOlivia Kirtley\n\n\n\n\n\n\n2020, October 29\n\n\nHow to deal with the problem?\n\n\nAline Claesen\n\n\n\n\n\n\n2020, February 27\n\n\nWhat was the problem again?\n\n\nPieter Moors\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "ReproducibiliTea Leuven",
     "section": "",
-    "text": "E-mail\n  \n  \n    \n     LinkedIn\n  \n  \n      Bluesky\n  \n\n  \n  \n ReproducibiliTea Leuven is a grassroots, early career researcher-led initiative to foster the use of open science practices in all fields of research. The original ReproducibiliTea group was founded by Sophia Crüwell, Amy Orben, and Sam Parsons at the University of Oxford in 2018, and has now grown into a global initiative across 99 institutions and 24 countries.\nThe Leuven chapter of ReproducibiliTea began in 2020. Our primary activity is a journal club that takes place roughly 2x per semester, during which we discuss articles or other resources (e.g. podcasts, online tools) relating to open science practices. Each journal club session is led by a member of the ReproducibiliTea Leuven organising team and focuses on a different challenge or (potential) solution to addressing issues of transparency, reproducibility, and replicability."
-  },
-  {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
-    "title": "ReproducibiliTea Leuven",
-    "section": "",
-    "text": "Researcher, Univerisity"
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "ReproducibiliTea Leuven",
-    "section": "",
-    "text": "PhD, Univerisity"
-  },
-  {
-    "objectID": "index.html#recent-posts",
-    "href": "index.html#recent-posts",
-    "title": "ReproducibiliTea Leuven",
-    "section": "Recent Posts",
-    "text": "Recent Posts\nCheck out the latest  Papers ,  News ,  Events , and  More »\n\n\n\n\n\n\n\n\n\n\nQuarto Academic Website Examples and Tips\n\n\n\nOct 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\n\nSep 3, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nNews item\n\n\n\nJun 24, 2024\n\n\n\n\n\n\nNo matching items\n\n\nAll Posts »"
+    "text": "E-mail\n  \n  \n    \n     LinkedIn\n  \n  \n      Bluesky\n  \n  \n      OSF\n  \n  \n      KU Leuven page\n  \n  \n      ReproducibiliTea Global\n  \n  \n     Subscribe for next sessions\n  \n\n  \n  \n ReproducibiliTea Leuven is a grassroots, early career researcher-led initiative to foster the use of open science practices in all fields of research. The original ReproducibiliTea group was founded by Sophia Crüwell, Amy Orben, and Sam Parsons at the University of Oxford in 2018, and has now grown into a global initiative across 99 institutions and 24 countries.\nThe Leuven chapter of ReproducibiliTea began in 2020. Our primary activity is a journal club that takes place roughly 2x per semester, during which we discuss articles or other resources (e.g. podcasts, online tools) relating to open science practices. Each journal club session is led by a member of the ReproducibiliTea Leuven organising team and focuses on a different challenge or (potential) solution to addressing issues of transparency, reproducibility, and replicability.\nSubscribe here to attend the next sessions: https://tinyurl.com/reprotealvn"
   },
   {
     "objectID": "people.html",
     "href": "people.html",
-    "title": "People",
+    "title": "ReproducibiliTeam Leuven",
     "section": "",
-    "text": "PhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nMasters Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nUndergraduate Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPI\n\n\n\n\n\nNo matching items"
+    "text": "Coordinator\n\n\n\n\n\n\n\n\n\n\n\n\n\nMember\n\n\n\n\n\n\n\n\n\n\n\n\n\nMember\n\n\n\n\n\n\n\n\n\n\n\n\n\nMember, Co-founder, & Past coordinator\n\n\n\n\n\n\n\n\n\n\n\n\n\nContact us to join!\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "people.html#team",
-    "href": "people.html#team",
-    "title": "People",
+    "objectID": "people.html#current-organizers",
+    "href": "people.html#current-organizers",
+    "title": "ReproducibiliTeam Leuven",
     "section": "",
-    "text": "PhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nMasters Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nUndergraduate Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPI\n\n\n\n\n\nNo matching items"
+    "text": "Coordinator\n\n\n\n\n\n\n\n\n\n\n\n\n\nMember\n\n\n\n\n\n\n\n\n\n\n\n\n\nMember\n\n\n\n\n\n\n\n\n\n\n\n\n\nMember, Co-founder, & Past coordinator\n\n\n\n\n\n\n\n\n\n\n\n\n\nContact us to join!\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "people.html#alumni",
-    "href": "people.html#alumni",
-    "title": "People",
-    "section": "Alumni",
-    "text": "Alumni\n\n\n   \n    \n    \n      Order By\n      Default\n      \n      \n      \n        Name\n      \n      \n        Role\n      \n      \n        Started\n      \n      \n        Ended\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nName\n\n\n\nRole\n\n\n\nStarted\n\n\n\nEnded\n\n\n\n\n\n\n\n\n\n\n\nAlumni A\n\n\nPhD Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\n\n\n\nAlumni B\n\n\nMasters Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\n\n\n\nAlumni C\n\n\nUndergraduate Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\nNo matching items"
+    "objectID": "people.html#past-organizers",
+    "href": "people.html#past-organizers",
+    "title": "ReproducibiliTeam Leuven",
+    "section": "Past organizers",
+    "text": "Past organizers\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Name\n      \n      \n        Role\n      \n      \n        Started\n      \n      \n        Ended\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nName\n\n\n\nRole\n\n\n\nStarted\n\n\n\nEnded\n\n\n\n\n\n\n\n\nJoanne Beames\n\n\nMember & Past coordinator\n\n\n2023\n\n\n2025\n\n\n\n\n\n\nBenjamin Kunc\n\n\nMember & Past coordinator\n\n\n2023\n\n\n2025\n\n\n\n\n\n\nNaeem Muhammad\n\n\nMember\n\n\n2020\n\n\n2024\n\n\n\n\n\n\nBenjamín Šimsa\n\n\nMember & Past coordinator\n\n\n2022\n\n\n2024\n\n\n\n\n\n\nAline Claesen\n\n\nMember & Co-founder\n\n\n2020\n\n\n2024\n\n\n\n\n\n\nGinette Lafit\n\n\nMember\n\n\n2022\n\n\n2023\n\n\n\n\n\n\nAmélie Godefroidt\n\n\nMember & Co-founder\n\n\n2020\n\n\n2023\n\n\n\n\n\n\nOlivia Kirtley\n\n\nMember, Co-founder, & Past coordinator\n\n\n2020\n\n\n2023\n\n\n\n\n\n\nStien Van De Plas\n\n\nMember\n\n\n2021\n\n\n2022\n\n\n\n\n\n\nNatalie Schroyens\n\n\nMember\n\n\n2021\n\n\n2021\n\n\n\n\n\n\nLennert Coenen\n\n\nMember & Co-founder\n\n\n2020\n\n\n2021\n\n\n\n\n\n\nPieter Moors\n\n\nMember & Co-founder\n\n\n2020\n\n\n2020\n\n\n\n\n\n\nNo matching items"
   }
 ]
