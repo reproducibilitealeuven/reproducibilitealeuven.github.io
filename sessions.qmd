@@ -1,5 +1,5 @@
 ---
-title: "<img src='/files/images/reproducibilitealeuven_logo.png' style='height:150px; margin-right: 10px; '>ReproducibiliTea Leuven sessions"
+title: "<img src='/files/images/reproducibilitealeuven_logo.png' style='height:150px; margin-right: 10px; '>ReproducibiliTea Leuven Sessions"
 # subtitle: "Current members"
 image: "/files/images/reproducibilitealeuven_logo.png"
 page-layout: full
@@ -8,17 +8,17 @@ listing:  #an example of listing external links
 - id: upcoming-sessions
   sort: "date asc"
   type: grid
-  fields: [image, title, date]
+  fields: [image, title, date, location, description]
   grid-item-align: center
-  grid-columns: 5
+  grid-columns: 3
   image-height: 200px
-  date-format: "YYYY, MMMM D"
+  date-format: "MMMM D, YYYY [at] HH:mm"
   # categories: true
 #  sort-ui: true
 #  filter-ui: true
   contents: 
   # Use individual files here as you may use each person at different occasions such as events, news.
-    - upcoming-sessions.yml 
+    - /sessions/upcoming-sessions.yml 
 
 - id: past-sessions
   sort: "date desc"
@@ -36,7 +36,7 @@ listing:  #an example of listing external links
 #  sort-ui: true
 #  filter-ui: true
   contents: 
-    - past-sessions.yml  
+    - /sessions/past-sessions.yml  
  
 
 page-navigation: false
@@ -49,13 +49,13 @@ format:
 ---
 
 
-## Upcoming sessions
+## Upcoming Sessions
 
 :::{#upcoming-sessions}
 :::
 
 
-## Past sessions
+## Past Sessions
 
 :::{#past-sessions}
 :::

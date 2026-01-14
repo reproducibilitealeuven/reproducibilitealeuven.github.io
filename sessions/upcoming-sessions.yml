@@ -1,15 +1,17 @@
-    - path: https://tinyurl.com/reprotealvn
-      image: "/files/images/reproducibilitealeuven_logo.png"
-      title: "On objectivity in science"
-      author: "Jan-Peter Sandler"
-      categories: [] 
-      date: 2026-03-18T16:00:00
-      location: PSI 01.07
+- path: https://tinyurl.com/reprotealvn
+  image: "/files/images/reproducibilitealeuven_logo.png"
+  title: "On objectivity in science"
+  author: "Jan-Peter Sandler"
+  categories: [] 
+  date: 2026-03-18T16:00:00
+  location: PSI 01.07
+  description: "Abstract: In this talk, I will discuss the concept of objectivity in science, its historical evolution, and its implications for contemporary research practices. We will explore how different scientific disciplines interpret objectivity and the challenges that arise in maintaining objectivity in the face of biases and societal influences."
 
-    - path: https://tinyurl.com/reprotealvn
-      image: "/files/images/reproducibilitealeuven_logo.png"
-      title: "Writing and sharing research code"
-      author: "Guests: Marie Cloet and Márton Bognar"
-      categories: [] 
-      date: 2026-05-27T16:00:00
-      location: VHI 00.68
+- path: https://tinyurl.com/reprotealvn
+  image: "/files/images/reproducibilitealeuven_logo.png"
+  title: "Writing and sharing research code"
+  author: "Guests: Marie Cloet and Márton Bognar"
+  categories: [] 
+  date: 2026-05-27T16:00:00
+  location: VHI 00.68
+  description: ""

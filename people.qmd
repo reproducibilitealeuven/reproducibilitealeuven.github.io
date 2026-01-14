@@ -18,9 +18,9 @@ listing:  #an example of listing external links
   contents: 
   # Use individual files here as you may use each person at different occasions such as events, news.
     - /people/peerole_jacobsen.yml 
-    - /people/janpeter_sandler.yml  
-    - /people/myluong_vuong.yml  
     - /people/eline_vangeert.yml 
+    - /people/myluong_vuong.yml  
+    - /people/janpeter_sandler.yml  
     - /people/you.yml  
 
 - id: alumni
@@ -52,13 +52,13 @@ format:
 ---
 
 
-## Current organizers
+## Current Organizers
 
 :::{#members}
 :::
 
 
-## Past organizers
+## Past Organizers
 
 :::{#alumni}
 :::

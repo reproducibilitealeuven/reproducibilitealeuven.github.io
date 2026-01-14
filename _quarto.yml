@@ -24,7 +24,7 @@ website:
         href: sessions.qmd
       # - text: Outreach
       #   href: outreach.qmd
-      - text: Organizing team
+      - text: Organizing Team
         href: people.qmd
       # - text: About
       #   menu:
@@ -110,7 +110,9 @@ website:
 format:
   html:
     theme: cosmo
-    css: styles.css
+    css: 
+      - styles.css
+      - custom.css
     toc: true
     footnotes-hover: true
     code-copy: true
