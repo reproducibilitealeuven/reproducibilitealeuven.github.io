@@ -53,6 +53,11 @@ span.__dimensions_badge_embed__, div.altmetric-embed {
   background: transparent !important;
 }
 
+/* Make organizer names bold */
+#listing-members .card-title {
+  font-weight: bold;
+}
+
 /* ===== UPCOMING SESSIONS LISTING (sessions.qmd) ===== */
 
 /* Upcoming sessions: visible borders with rounded edges */
@@ -68,23 +73,20 @@ span.__dimensions_badge_embed__, div.altmetric-embed {
 #listing-upcoming-sessions .quarto-grid-item .card-body {
   background: #fff !important;
   flex-grow: 0; /* Prevent stretching */
-}
-
-/* Reorder elements in grid listing cards */
-.quarto-grid-item .card-body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start; /* Prevent stretching */
   height: auto; /* Don't force full height */
 }
 
-.quarto-grid-item .card-body .card-title {
+/* Reorder elements in sessions listing cards ONLY */
+#listing-upcoming-sessions .quarto-grid-item .card-body .card-title {
   order: 1;
   text-transform: capitalize;
   font-weight: bold;
 }
 
-.quarto-grid-item .card-body .card-attribution {
+#listing-upcoming-sessions .quarto-grid-item .card-body .card-attribution {
   order: 2;
   align-items: flex-start;
   text-transform: none;
@@ -92,58 +94,57 @@ span.__dimensions_badge_embed__, div.altmetric-embed {
   text-align: initial;
 }
 
-.quarto-grid-item .card-attribution.end {
+#listing-upcoming-sessions .quarto-grid-item .card-attribution.end {
   justify-content: flex-start;
 }
 
-.quarto-grid-item .card-text-small {
+#listing-upcoming-sessions .quarto-grid-item .card-text-small {
   font-size: inherit;
 }
 
 /* Add clock icon before date */
-.quarto-grid-item .listing-date::before {
+#listing-upcoming-sessions .quarto-grid-item .listing-date::before {
   content: "🕒 ";
   margin-right: 0.3em;
 }
 
 /* Style location field displayed as table */
-.quarto-grid-item .card-other-values {
+#listing-upcoming-sessions .quarto-grid-item .card-other-values {
   order: 3;
   width: 100%;
   margin-top: 0.5em;
   border: none;
   text-align: left;
-  
 }
 
-.quarto-grid-item .card-other-values td {
+#listing-upcoming-sessions .quarto-grid-item .card-other-values td {
   padding: 0;
   border: none;
   font-size: 0.9rem;
 }
 
-.quarto-grid-item .card-other-values td:first-child {
+#listing-upcoming-sessions .quarto-grid-item .card-other-values td:first-child {
   display: none; /* Hide "location" label */
 }
 
-.quarto-grid-item .card-other-values td.location {
+#listing-upcoming-sessions .quarto-grid-item .card-other-values td.location {
   font-weight: normal;
   color: inherit;
 }
 
 /* Add location pin icon before location */
-.quarto-grid-item .card-other-values td.location::before {
+#listing-upcoming-sessions .quarto-grid-item .card-other-values td.location::before {
   content: "📍 ";
   margin-right: 0.3em;
 }
 
-.quarto-grid-item .card-body .listing-location {
+#listing-upcoming-sessions .quarto-grid-item .card-body .listing-location {
   order: 3;
   margin-top: 1em;
   text-decoration-line: underline;
 }
 
-.quarto-grid-item .card-body .listing-description {
+#listing-upcoming-sessions .quarto-grid-item .card-body .listing-description {
   order: 4;
   margin-top: 1em;
   text-align: initial;
