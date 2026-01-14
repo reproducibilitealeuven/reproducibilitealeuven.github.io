@@ -13,5 +13,5 @@
   author: "Guests: Marie Cloet and Márton Bognar"
   categories: [] 
   date: 2026-05-27T16:00:00
-  location: VHI 00.68
+  location: VHI 00.64
   description: "Have you ever wanted to reuse code from a published paper but couldn't find it, or found it to be unusable? Across many disciplines, researchers are writing code as part of the research process, sometimes even as the main scientific contribution. However, there are no clear guidelines on good practices for research code, and few well-known incentives for putting in the effort to publish it. It is easy to think of writing code as a necessary evil for having a paper, and not bother publishing it at the end of the process. In this session, we cover good practices for code development and publishing. We share tips for collaborating on code, making sure that the final result can be run in different environments and reused in the future (by independent researchers but also by yourself!). We also cover some literature that analyzes the incentives for code sharing and show examples of how code sharing is being rewarded directly in academia. The aim of the session is to include insights from multiple disciplines and create an open discussion to compare practices in different fields."
