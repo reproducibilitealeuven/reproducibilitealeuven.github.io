@@ -31,9 +31,13 @@ about:
     - text: "<img src='/files/images/reproducibilitea_logo.png' style='height:18px;'> ReproducibiliTea Global"
       href: https://reproducibilitea.org/
       target: _blank   
-    - text: "<img src='/files/images/reproducibilitealeuven_logo.png' style='height:20px;'>Subscribe for next sessions"
+    - text: "<img src='/files/images/reproducibilitealeuven_logo.png' style='height:20px;'>Register for next sessions"
       href: https://tinyurl.com/reprotealvn
-      target: _blank       
+      target: _blank    
+    - icon: microsoft-teams
+      text: Our Teams channel
+      href: https://teams.microsoft.com/l/team/19%3A0_wZyFX9TQCbOj-C_LeIPyUiZgag36TIi5Zdxe5-n-M1%40thread.tacv2/conversations?groupId=108fc613-b1b4-4272-8460-3852d8953ddd&tenantId=3973589b-9e40-4eb5-800e-b0b6383d1621
+      target: _blank
       
 # listing:   # Comment the listing section and delete corresponding lines in the index.qmd file to remove the recent posts
 #   - id: recent-posts
