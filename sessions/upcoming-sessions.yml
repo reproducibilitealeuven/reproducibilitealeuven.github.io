@@ -5,7 +5,16 @@
   categories: [] 
   date: 2026-03-18T16:00:00
   location: PSI 01.07
-  description: " "
+  description: |
+    Open Science is about opening the scientific process so that results and the processes to reach them are transparently reported and can be reproduced. It departs from a belief that these processes help to reduce the reporting of biased results and so enhance the objectivity of scientific practice. 
+    Not only is open science about transparent reporting on the process, but also, in cases such as transdisciplinary research or citizen science, opening the process itself to involve non-researchers. We call this the democratisation of science. Here, too, the ideal of objectivity is pursued, but by means of inclusivity. Social accounts of science aim to introduce indigenous and other sources of knowledge in the knowledge creation process.  
+    By collecting more diverse viewpoints, it is assumed a more objective representation of reality can be achieved. However, these different types of knowledge are not subject to the same processes of evaluation. That presents a difficulty for research to assess the validity of different understandings, how they should be included, and subsequently how to assess the research results.  
+    We will discuss this apparent internal conflict that arises between open science activities that focus on ‘opening up’ the research process to a broader community and ensuring that scientific research is undertaken more rigorously to ensure reproducibility. Where the former focuses on inclusivity, the latter focusses on objectivity, and at first sight, they do not seem to match. By looking at different accounts of objectivity (Koskinen, 2017), we dive deeper into the contradiction and brainstorm paths forward for our own open science practices and open science in general. 
+    Reference: 
+    Koskinen, I. (2017). Where is the epistemic community? On democratisation of science and social accounts of objectivity. Synthese, 194(12), 4671–4686. https://doi.org/10.1007/s11229-016-1173-2 
+    Also interesting on the replicability crisis: 
+    https://compass-onlinelibrary-wiley-com.kuleuven.e-bronnen.be/doi/full/10.1111/phc3.12633  
+    https://cla.umn.edu/philosophy/story/philosophy-science-and-crisis-reproducibility
 
 - path: https://tinyurl.com/reprotealvn
   image: "/files/images/reproducibilitealeuven_logo.png"
@@ -14,4 +23,8 @@
   categories: [] 
   date: 2026-05-27T16:00:00
   location: VHI 00.64
-  description: "Have you ever wanted to reuse code from a published paper but couldn't find it, or found it to be unusable? Across many disciplines, researchers are writing code as part of the research process, sometimes even as the main scientific contribution. However, there are no clear guidelines on good practices for research code, and few well-known incentives for putting in the effort to publish it. It is easy to think of writing code as a necessary evil for having a paper, and not bother publishing it at the end of the process. In this session, we cover good practices for code development and publishing. We share tips for collaborating on code, making sure that the final result can be run in different environments and reused in the future (by independent researchers but also by yourself!). We also cover some literature that analyzes the incentives for code sharing and show examples of how code sharing is being rewarded directly in academia. The aim of the session is to include insights from multiple disciplines and create an open discussion to compare practices in different fields."
+  description: |
+    Have you ever wanted to reuse code from a published paper but couldn't find it, or found it to be unusable? 
+    Across many disciplines, researchers are writing code as part of the research process, sometimes even as the main scientific contribution. However, there are no clear guidelines on good practices for research code, and few well-known incentives for putting in the effort to publish it. It is easy to think of writing code as a necessary evil for having a paper, and not bother publishing it at the end of the process. 
+    In this session, we cover good practices for code development and publishing. We share tips for collaborating on code, making sure that the final result can be run in different environments and reused in the future (by independent researchers but also by yourself!). 
+    We also cover some literature that analyzes the incentives for code sharing and show examples of how code sharing is being rewarded directly in academia. The aim of the session is to include insights from multiple disciplines and create an open discussion to compare practices in different fields.
