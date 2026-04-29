@@ -21,18 +21,13 @@
         </div>
         <% } %>
         <% if (item.location) { %>
-        <table class="card-other-values">
-          <tr>
-            <td>location</td>
-            <td class="location listing-location">
-              <% if (item["location-link"] || item.location_link || item["location-url"] || item.location_url) { %>
-              <a href="<%- item['location-link'] || item.location_link || item['location-url'] || item.location_url %>" target="_blank" rel="noopener"><%= item.location %></a>
-              <% } else { %>
-              <span><%= item.location %></span>
-              <% } %>
-            </td>
-          </tr>
-        </table>
+        <div class="listing-location-inline">
+          <% if (item["location-link"] || item.location_link || item["location-url"] || item.location_url) { %>
+          <a href="<%- item['location-link'] || item.location_link || item['location-url'] || item.location_url %>" target="_blank" rel="noopener"><%= item.location %></a>
+          <% } else { %>
+          <span><%= item.location %></span>
+          <% } %>
+        </div>
         <% } %>
         <% if (item.author) { %>
         <div class="listing-author-inline"><%= item.author %></div>

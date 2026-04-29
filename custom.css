@@ -102,6 +102,16 @@ span.__dimensions_badge_embed__, div.altmetric-embed {
   font-size: inherit;
 }
 
+#listing-upcoming-sessions .quarto-grid-item .listing-date,
+#listing-upcoming-sessions .quarto-grid-item .card-other-values td,
+#listing-upcoming-sessions .quarto-grid-item .listing-location-inline,
+#listing-upcoming-sessions .quarto-grid-item .listing-author-inline {
+  font-size: inherit;
+  font-weight: normal;
+  color: inherit;
+  line-height: inherit;
+}
+
 /* Add clock icon before date */
 #listing-upcoming-sessions .quarto-grid-item .listing-date::before {
   content: "🕒 ";
@@ -113,6 +123,7 @@ span.__dimensions_badge_embed__, div.altmetric-embed {
   order: 3;
   width: 100%;
   margin-top: 0.5em;
+  margin-bottom: 0;
   border: none;
   text-align: left;
 }
@@ -120,7 +131,7 @@ span.__dimensions_badge_embed__, div.altmetric-embed {
 #listing-upcoming-sessions .quarto-grid-item .card-other-values td {
   padding: 0;
   border: none;
-  font-size: 0.9rem;
+  font-size: inherit;
 }
 
 #listing-upcoming-sessions .quarto-grid-item .card-other-values td:first-child {
@@ -163,9 +174,33 @@ span.__dimensions_badge_embed__, div.altmetric-embed {
 
 #listing-upcoming-sessions .quarto-grid-item .listing-author-inline {
   order: 4;
-  margin-top: 0.4em;
+  margin-top: 0.5em;
   text-align: left;
-  font-size: 0.9rem;
+}
+
+#listing-upcoming-sessions .quarto-grid-item .listing-location-inline {
+  order: 3;
+  margin-top: 0.5em;
+  text-align: left;
+}
+
+#listing-upcoming-sessions .quarto-grid-item .listing-location-inline::before {
+  content: "📍 ";
+  margin-right: 0.3em;
+}
+
+#listing-upcoming-sessions .quarto-grid-item .listing-location-inline a,
+#listing-upcoming-sessions .quarto-grid-item .listing-location-inline span {
+  font-size: inherit;
+  font-weight: normal;
+  color: inherit;
+  line-height: inherit;
+  text-decoration: none;
+}
+
+#listing-upcoming-sessions .quarto-grid-item .listing-location-inline a:hover,
+#listing-upcoming-sessions .quarto-grid-item .listing-location-inline a:focus {
+  text-decoration: underline;
 }
 
 #listing-upcoming-sessions .quarto-grid-item .listing-author-inline::before {
