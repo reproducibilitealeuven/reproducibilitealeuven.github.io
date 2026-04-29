@@ -83,9 +83,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-date','listing-location','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-date','listing-location','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-image","listing-title","listing-author","listing-categories","listing-date","listing-location","listing-description"],
+      searchColumns: ["listing-image","listing-title","listing-author","listing-categories","listing-date","listing-location","listing-location-link","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -274,42 +274,87 @@ window.Quarto = {
 
 <section id="upcoming-sessions" class="level2">
 <h2 class="anchored" data-anchor-id="upcoming-sessions">Upcoming Sessions</h2>
-<div id="listing-upcoming-sessions" class="quarto-listing quarto-listing-container-grid">
+<div id="listing-upcoming-sessions" class="quarto-listing quarto-listing-container-custom">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="" data-listing-date-sort="1779890400000">
-<a href="https://tinyurl.com/reprotealvn" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/reproducibilitealeuven_logo.png" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Writing and sharing research code
-</h5>
-<div class="card-text listing-description delink">
-<p>Have you ever wanted to reuse code from a published paper but couldn’t find it, or found it to be unusable? Across many disciplines, researchers are writing code as part of…</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-May 27, 2026 at 16:00
-</div>
-</div>
-<table class="card-other-values">
 
-<tbody><tr>
-<td>
-location
-</td>
-<td class="location">
-VHI 00.64
-</td>
+  <div class="g-col-1" data-index="0" data-categories="" data-listing-date-sort="1779890400000">
+    <div class="quarto-grid-item card h-100 card-center">
+      
+      <p class="card-img-top">
+        <img loading="lazy" src="./files/images/reproducibilitealeuven_logo.png" class="thumbnail-image card-img" style="height: 200px;">
+      </p>
+      
+      <div class="card-body post-contents">
+        
+        <h5 class="no-anchor card-title listing-title">Writing and sharing research code</h5>
+        
+        
+        <div class="card-text listing-description delink session-description is-collapsed" role="button" tabindex="0" aria-expanded="false" aria-label="Show full description">Have you ever wanted to reuse code from a published paper but couldn't find it, or found it to be unusable? 
+Across many disciplines, researchers are writing code as part of the research process, sometimes even as the main scientific contribution. However, there are no clear guidelines on good practices for research code, and few well-known incentives for putting in the effort to publish it. It is easy to think of writing code as a necessary evil for having a paper, and not bother publishing it at the end of the process. 
+In this session, we cover good practices for code development and publishing. We share tips for collaborating on code, making sure that the final result can be run in different environments and reused in the future (by independent researchers but also by yourself!). 
+We also cover some literature that analyzes the incentives for code sharing and show examples of how code sharing is being rewarded directly in academia. The aim of the session is to include insights from multiple disciplines and create an open discussion to compare practices in different fields.
+</div>
+        
+        
+        <div class="card-attribution card-text-small end">
+          <div class="listing-date">May 27, 2026 at 16:00</div>
+        </div>
+        
+        
+        
+<table class="card-other-values caption-top table" data-quarto-postprocess="true">
+<tbody>
+<tr class="odd">
+<td>location</td>
+<td class="location listing-location"><a href="https://www.kuleuven.be/kulag/en/lokaal/108-01-000064/onderwijs" target="_blank" rel="noopener">VHI 00.64</a></td>
 </tr>
+</tbody>
+</table>
 
-</tbody></table>
+        
+        
+        <div class="listing-author-inline">Guests: Marie Cloet and Márton Bognar</div>
+        
+        
+        <div class="mt-3 session-register-wrap">
+          <a href="https://tinyurl.com/reprotealvn" class="btn btn-primary session-register-btn" target="_blank" rel="noopener">Register</a>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
 </div>
-</div></a>
-</div>
-</div>
+
+<script>
+(() => {
+  if (window.__upcomingSessionsDescriptionToggleInit) return;
+  window.__upcomingSessionsDescriptionToggleInit = true;
+
+  const selector = "#listing-upcoming-sessions .session-description";
+
+  const toggleDescription = (el) => {
+    const expanded = el.classList.toggle("is-expanded");
+    el.classList.toggle("is-collapsed", !expanded);
+    el.setAttribute("aria-expanded", expanded ? "true" : "false");
+    el.setAttribute("aria-label", expanded ? "Collapse description" : "Show full description");
+  };
+
+  document.addEventListener("click", (event) => {
+    const description = event.target.closest(selector);
+    if (!description) return;
+    toggleDescription(description);
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key !== "Enter" && event.key !== " ") return;
+    const description = event.target.closest(selector);
+    if (!description) return;
+    event.preventDefault();
+    toggleDescription(description);
+  });
+})();
+</script>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 </section>

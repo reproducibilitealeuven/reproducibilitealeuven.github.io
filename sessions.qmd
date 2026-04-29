@@ -4,8 +4,8 @@ title: "<img src='/files/images/reproducibilitealeuven_logo.png' style='height:1
 image: "/files/images/reproducibilitealeuven_logo.png"
 page-layout: full
 listing:  #an example of listing external links
-#  template: item-default-external.ejs
 - id: upcoming-sessions
+  template: includes/listing-upcoming-item.ejs
   sort: "date asc"
   type: grid
   fields: [image, title, date, location, description]

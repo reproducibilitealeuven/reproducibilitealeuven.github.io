@@ -132,21 +132,92 @@ span.__dimensions_badge_embed__, div.altmetric-embed {
   color: inherit;
 }
 
-/* Add location pin icon before location */
-#listing-upcoming-sessions .quarto-grid-item .card-other-values td.location::before {
-  content: "📍 ";
-  margin-right: 0.3em;
+/* Location display/link behavior */
+#listing-upcoming-sessions .quarto-grid-item .card-other-values td.location {
+  pointer-events: auto;
+}
+
+#listing-upcoming-sessions .quarto-grid-item .card-other-values td.location a,
+#listing-upcoming-sessions .quarto-grid-item .card-other-values td.location span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+}
+
+#listing-upcoming-sessions .quarto-grid-item .card-other-values td.location a::before,
+#listing-upcoming-sessions .quarto-grid-item .card-other-values td.location span::before {
+  content: "📍";
 }
 
 #listing-upcoming-sessions .quarto-grid-item .card-body .listing-location {
   order: 3;
   margin-top: 1em;
-  text-decoration-line: underline;
+  text-decoration: none;
+}
+
+#listing-upcoming-sessions .quarto-grid-item .listing-location a {
+  text-decoration: underline;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+#listing-upcoming-sessions .quarto-grid-item .listing-author-inline {
+  order: 4;
+  margin-top: 0.4em;
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+#listing-upcoming-sessions .quarto-grid-item .listing-author-inline::before {
+  content: "🧑‍🏫 ";
+  margin-right: 0.3em;
 }
 
 #listing-upcoming-sessions .quarto-grid-item .card-body .listing-description {
-  order: 4;
+  order: 5;
   margin-top: 1em;
   text-align: initial;
+}
+
+/* Collapsed description (click to expand) */
+#listing-upcoming-sessions .session-description {
+  cursor: pointer;
+}
+
+#listing-upcoming-sessions .session-description.is-collapsed {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+#listing-upcoming-sessions .session-description.is-collapsed p {
+  display: inline;
+  margin: 0;
+}
+
+#listing-upcoming-sessions .session-description.is-expanded {
+  display: block;
+  overflow: visible;
+}
+
+#listing-upcoming-sessions .session-description.is-expanded p {
+  margin-bottom: 0;
+}
+
+/* Register button always visible below description */
+#listing-upcoming-sessions .session-register-wrap {
+  order: 6;
+  margin-top: 1rem;
+}
+
+#listing-upcoming-sessions .session-register-btn {
+  border-radius: 999px;
+  filter: brightness(0.9);
+}
+
+#listing-upcoming-sessions .session-register-btn:hover,
+#listing-upcoming-sessions .session-register-btn:focus {
+  filter: brightness(0.82);
 }
 
