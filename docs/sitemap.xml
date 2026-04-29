@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://reproducibilitealeuven.github.io/people.html</loc>
+    <lastmod>2026-01-14T09:21:13.000Z</lastmod>
+  </url>
+  <url>
     <loc>https://reproducibilitealeuven.github.io/sessions.html</loc>
-    <lastmod>2026-01-14T11:02:40.668Z</lastmod>
+    <lastmod>2026-01-14T11:02:40.000Z</lastmod>
   </url>
   <url>
     <loc>https://reproducibilitealeuven.github.io/index.html</loc>
-    <lastmod>2026-02-17T14:44:17.173Z</lastmod>
-  </url>
-  <url>
-    <loc>https://reproducibilitealeuven.github.io/people.html</loc>
-    <lastmod>2026-01-14T09:21:13.357Z</lastmod>
+    <lastmod>2026-02-17T14:44:17.000Z</lastmod>
   </url>
 </urlset>

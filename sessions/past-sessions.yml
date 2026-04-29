@@ -1,3 +1,11 @@
+
+    - path: 
+      image: "/files/profiles/"
+      title: "On objectivity in science"
+      author: "Jan-Peter Sandler"
+      categories: [] 
+      date: 2026-03-18
+
     - path: 
       image: "/files/profiles/"
       title: "Literature reviews reimagined"
