@@ -1,6 +1,13 @@
 
     - path: 
       image: "/files/profiles/"
+      title: "Writing and sharing research code"
+      author: "Guest speakers:</br>Marie Cloet and Márton Bognár"
+      categories: [] 
+      date: 2026-05-27
+      
+    - path: 
+      image: "/files/profiles/"
       title: "On objectivity in science"
       author: "Jan-Peter Sandler"
       categories: [] 
