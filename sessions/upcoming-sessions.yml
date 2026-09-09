@@ -1,11 +1,46 @@
 
 - path: https://tinyurl.com/reprotealvn
   image: "/files/images/reproducibilitealeuven_logo.png"
-  title: "What's up next?" #"Writing and sharing research code"
-  #author: "Guests: Marie Cloet and Márton Bognár"
+  title: "Let's Play Open Science Games" 
   categories: []
-  #date: 2026-05-27T16:00:00
-  #location: VHI 00.64
-  #location-link: https://www.kuleuven.be/kulag/en/lokaal/108-01-000064/onderwijs
+  date: 2026-10-20T16:00:00
+  location: VHI 03.64
+  location-link: https://www.kuleuven.be/kulag/en/lokaal/108-01-030064/onderwijs
   description: |
-    Watch this page for upcoming sessions!
+    Start the new academic year with a special ReproducibiliTea session featuring the Research Survival Game, developed by KU Leuven Libraries. In this interactive board game, players take on the role of researchers navigating the research landscape, learning about topics such as Open Access, Research Data Management, and good research practices along the way. Through questions, discussion, and a bit of friendly competition, participants will explore key concepts relevant to responsible and open research. Whether you're new to ReproducibiliTea or a familiar face, join us for a fun and engaging start to the year.
+
+    Resource:
+    https://bib.kuleuven.be/english/research/researchsurvivalgame
+
+- path: https://tinyurl.com/reprotealvn
+  image: "/files/images/reproducibilitealeuven_logo.png"
+  title: "Open Science in the Humanities" 
+  author: "Guest Speaker: Brecht Liefsoens"
+  categories: []
+  date: 2026-11-24T16:15:00
+  location: MSI 01.20
+  location-link: https://www.kuleuven.be/kulag/en/lokaal/118-01-010020/onderwijs
+  description: |
+     - following soon - 
+    
+- path: https://tinyurl.com/reprotealvn
+  image: "/files/images/reproducibilitealeuven_logo.png"
+  title: "Is There Only One Correct Analysis?" 
+  author: "Peer-Ole Jacobsen"
+  categories: []
+  date: 2026-12-08T16:00:00
+  location: VHI 03.64
+  location-link: https://www.kuleuven.be/kulag/en/lokaal/108-01-030064/onderwijs
+  description: |
+    Multiverse analyses have emerged as a prominent approach for addressing researcher degrees of freedom and evaluating the robustness of empirical findings. In this ReproducibiliTea journal club, we will discuss two pre-prints that offer complementary perspectives on the role of multiverse analyses in scientific research. The discussion will focus on the benefits and limitations of multiverse analyses, whether robustness across multiple specifications provides stronger evidence, and how researchers can balance transparency with theoretical and methodological justification.
+    
+    References:
+    Lakens, D., Rasti, S., & Tunç, M. N. (2026). There is only one correct analysis. PsyArXiv. https://osf.io/preprints/psyarxiv/hvjxf_v1/
+    Nepomuceno, A., Ghosal, A., Sandoval-Lentisco, A., & Ioannidis, J. P. A. (2026). Uptake and Implementation of Multiverse-style Analyses Across 613 Studies. bioRxiv. 
+
+# - path: https://tinyurl.com/reprotealvn
+#   image: "/files/images/reproducibilitealeuven_logo.png"
+#   title: "What's up next?" 
+#   categories: []
+#   description: |
+#     Watch this page for upcoming sessions!
