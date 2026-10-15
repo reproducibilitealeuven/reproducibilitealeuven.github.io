@@ -21,7 +21,11 @@
   location: MSI 01.20
   location-link: https://www.kuleuven.be/kulag/en/lokaal/118-01-010020/onderwijs
   description: |
-     - following soon - 
+    Open science ideals, largely derived from the "hard sciences", have seen significant success, but research in the arts and humanities often struggles to meet goals of transparency and reproducibility. This discrepancy arises from different scholarly customs and challenges inherent to diverse fields. Some propose the concept of Open Humanities to tailor Open Science ideals to the arts and humanities, while others advocate for a broader Open Research framework that encompasses all disciplines. The aim is to develop a shared understanding of Open Research's implications across various fields, addressing the unique challenges presented by each. 
+    
+    Recommended reading: 
+    Paul Longley Arthur & Lydia Hearn, Toward Open Research: A Narrative Review of the Challenges and Opportunities for Open Humanities in Journal of Communication 71 (nr. 5, 2021), pp. 827-853. https://doi.org/10.1093/joc/jqab028
+
     
 - path: https://tinyurl.com/reprotealvn
   image: "/files/images/reproducibilitealeuven_logo.png"
