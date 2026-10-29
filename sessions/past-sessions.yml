@@ -1,5 +1,11 @@
 
     - path: 
+      image: "/files/images/researchsurvivalgame.jpeg"
+      title: "Let's Play Open Science Games" 
+      author: "KU Leuven Libraries"
+      date: 2026-10-20T16:00:00
+
+    - path: 
       image: "/files/profiles/"
       title: "Writing and sharing research code"
       author: "Guest speakers:</br>Marie Cloet and Márton Bognár"

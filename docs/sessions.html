@@ -44,7 +44,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6957ec2732917c3acd9217c3064faa9e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-f07a380226b71dccd824dee245407231.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -85,7 +85,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-image','listing-title','listing-date','listing-location','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-image","listing-title","listing-categories","listing-date","listing-location","listing-location-link","listing-description","listing-author"],
+      searchColumns: ["listing-image","listing-title","listing-author","listing-categories","listing-date","listing-location","listing-location-link","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -113,7 +113,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-date','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-image","listing-title","listing-author","listing-categories","listing-date"],
+      searchColumns: ["listing-image","listing-title","listing-author","listing-date","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -140,42 +140,23 @@ gtag('js', new Date());
 gtag('config', '', { 'anonymize_ip': true});
 </script>
 
-
 <!-- 
-
 Load Academicons v1: https://jpswalsh.github.io/academicons/
-
 -->
-
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-
-
 
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
 
-
-
-
 <!---
-
 The following code are needed to show dimension citation and altmetrics.
-
 https://api.altmetric.com/embeds.html
-
 https://badge.dimensions.ai/
-
 --->
-
-
 
 <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
 
-
-
 <script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-
 
 <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
 
@@ -296,47 +277,7 @@ window.Quarto = {
 <div id="listing-upcoming-sessions" class="quarto-listing quarto-listing-container-custom">
 <div class="list grid quarto-listing-cols-3">
 
-  <div class="g-col-1" data-index="0" data-categories="" data-listing-date-sort="1792504800000">
-    <div class="quarto-grid-item card h-100 card-center">
-      
-      <p class="card-img-top">
-        <img loading="lazy" src="./files/images/researchsurvivalgame.jpeg" class="thumbnail-image card-img" style="height: 200px;">
-      </p>
-      
-      <div class="card-body post-contents">
-        
-        <h5 class="no-anchor card-title listing-title">Let's Play Open Science Games</h5>
-        
-        
-        <div class="card-text listing-description delink session-description is-collapsed" role="button" tabindex="0" aria-expanded="false" aria-label="Show full description" style="white-space: pre-line;">Start the new academic year with a special ReproducibiliTea session featuring the Research Survival Game, developed by KU Leuven Libraries. In this interactive board game, players take on the role of researchers navigating the research landscape, learning about topics such as Open Access, Research Data Management, and good research practices along the way. Through questions, discussion, and a bit of friendly competition, participants will explore key concepts relevant to responsible and open research. Whether you're new to ReproducibiliTea or a familiar face, join us for a fun and engaging start to the year.
-
-Resource:
-https://bib.kuleuven.be/english/research/researchsurvivalgame
-</div>
-        
-        
-        <div class="card-attribution card-text-small end">
-          <div class="listing-date">October 20, 2026 at 16:00</div>
-        </div>
-        
-        
-        <div class="listing-location-inline">
-          
-          <a href="https://www.kuleuven.be/kulag/en/lokaal/108-01-030064/onderwijs" target="_blank" rel="noopener">VHI 03.64</a>
-          
-        </div>
-        
-        
-        
-        <div class="mt-3 session-register-wrap">
-          <a href="https://tinyurl.com/reprotealvn" class="btn btn-primary session-register-btn" target="_blank" rel="noopener">Register</a>
-        </div>
-        
-      </div>
-    </div>
-  </div>
-
-  <div class="g-col-1" data-index="1" data-categories="" data-listing-date-sort="1795533300000">
+  <div class="g-col-1" data-index="0" data-categories="" data-listing-date-sort="1795533300000">
     <div class="quarto-grid-item card h-100 card-center">
       
       <p class="card-img-top">
@@ -378,7 +319,7 @@ Paul Longley Arthur &amp; Lydia Hearn, Toward Open Research: A Narrative Review 
     </div>
   </div>
 
-  <div class="g-col-1" data-index="2" data-categories="" data-listing-date-sort="1796742000000">
+  <div class="g-col-1" data-index="1" data-categories="" data-listing-date-sort="1796742000000">
     <div class="quarto-grid-item card h-100 card-center">
       
       <p class="card-img-top">
@@ -503,7 +444,20 @@ Nepomuceno, A., Ghosal, A., Sandoval-Lentisco, A., &amp; Ioannidis, J. P. A. (20
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-categories="" data-listing-date-sort="1779832800000" data-listing-title-sort="Writing and sharing research code">
+<tr data-index="0" data-listing-date-sort="1792504800000" data-listing-title-sort="Let's Play Open Science Games">
+<td>
+<span class="listing-date">2026, October 20</span>
+</td>
+<td>
+<span class="listing-title">Let’s Play Open Science Games</span>
+</td>
+<td>
+<span class="listing-author">KU Leuven Libraries</span>
+</td>
+
+</tr>
+
+<tr data-index="1" data-categories="" data-listing-date-sort="1779832800000" data-listing-title-sort="Writing and sharing research code">
 <td>
 <span class="listing-date">2026, May 27</span>
 </td>
@@ -516,7 +470,7 @@ Nepomuceno, A., Ghosal, A., Sandoval-Lentisco, A., &amp; Ioannidis, J. P. A. (20
 
 </tr>
 
-<tr data-index="1" data-categories="" data-listing-date-sort="1773788400000" data-listing-title-sort="On objectivity in science">
+<tr data-index="2" data-categories="" data-listing-date-sort="1773788400000" data-listing-title-sort="On objectivity in science">
 <td>
 <span class="listing-date">2026, March 18</span>
 </td>
@@ -529,7 +483,7 @@ Nepomuceno, A., Ghosal, A., Sandoval-Lentisco, A., &amp; Ioannidis, J. P. A. (20
 
 </tr>
 
-<tr data-index="2" data-categories="" data-listing-date-sort="1763420400000" data-listing-title-sort="Literature reviews reimagined">
+<tr data-index="3" data-categories="" data-listing-date-sort="1763420400000" data-listing-title-sort="Literature reviews reimagined">
 <td>
 <span class="listing-date">2025, November 18</span>
 </td>
@@ -542,7 +496,7 @@ Nepomuceno, A., Ghosal, A., Sandoval-Lentisco, A., &amp; Ioannidis, J. P. A. (20
 
 </tr>
 
-<tr data-index="3" data-categories="" data-listing-date-sort="1759788000000" data-listing-title-sort="Reflections on the reviewing process">
+<tr data-index="4" data-categories="" data-listing-date-sort="1759788000000" data-listing-title-sort="Reflections on the reviewing process">
 <td>
 <span class="listing-date">2025, October 7</span>
 </td>
@@ -555,7 +509,7 @@ Nepomuceno, A., Ghosal, A., Sandoval-Lentisco, A., &amp; Ioannidis, J. P. A. (20
 
 </tr>
 
-<tr data-index="4" data-categories="" data-listing-date-sort="1746482400000" data-listing-title-sort="Reproducibility made easy: Open resources for all disciplines">
+<tr data-index="5" data-categories="" data-listing-date-sort="1746482400000" data-listing-title-sort="Reproducibility made easy: Open resources for all disciplines">
 <td>
 <span class="listing-date">2025, May 6</span>
 </td>
@@ -568,7 +522,7 @@ Nepomuceno, A., Ghosal, A., Sandoval-Lentisco, A., &amp; Ioannidis, J. P. A. (20
 
 </tr>
 
-<tr data-index="5" data-categories="" data-listing-date-sort="1742943600000" data-listing-title-sort="Between the quality and quantity of science">
+<tr data-index="6" data-categories="" data-listing-date-sort="1742943600000" data-listing-title-sort="Between the quality and quantity of science">
 <td>
 <span class="listing-date">2025, March 26</span>
 </td>
@@ -581,7 +535,7 @@ Nepomuceno, A., Ghosal, A., Sandoval-Lentisco, A., &amp; Ioannidis, J. P. A. (20
 
 </tr>
 
-<tr data-index="6" data-categories="" data-listing-date-sort="1732662000000" data-listing-title-sort="Generative AI and Open Science">
+<tr data-index="7" data-categories="" data-listing-date-sort="1732662000000" data-listing-title-sort="Generative AI and Open Science">
 <td>
 <span class="listing-date">2024, November 27</span>
 </td>
@@ -594,7 +548,7 @@ Nepomuceno, A., Ghosal, A., Sandoval-Lentisco, A., &amp; Ioannidis, J. P. A. (20
 
 </tr>
 
-<tr data-index="7" data-categories="" data-listing-date-sort="1728424800000" data-listing-title-sort="Open science interventions to improve reproducibility and replicability of research">
+<tr data-index="8" data-categories="" data-listing-date-sort="1728424800000" data-listing-title-sort="Open science interventions to improve reproducibility and replicability of research">
 <td>
 <span class="listing-date">2024, October 9</span>
 </td>
@@ -607,7 +561,7 @@ Nepomuceno, A., Ghosal, A., Sandoval-Lentisco, A., &amp; Ioannidis, J. P. A. (20
 
 </tr>
 
-<tr data-index="8" data-categories="" data-listing-date-sort="1717538400000" data-listing-title-sort="Crowdsourcing in research">
+<tr data-index="9" data-categories="" data-listing-date-sort="1717538400000" data-listing-title-sort="Crowdsourcing in research">
 <td>
 <span class="listing-date">2024, June 5</span>
 </td>
@@ -620,7 +574,7 @@ Nepomuceno, A., Ghosal, A., Sandoval-Lentisco, A., &amp; Ioannidis, J. P. A. (20
 
 </tr>
 
-<tr data-index="9" data-categories="" data-listing-date-sort="1711494000000" data-listing-title-sort="Citizen science">
+<tr data-index="10" data-categories="" data-listing-date-sort="1711494000000" data-listing-title-sort="Citizen science">
 <td>
 <span class="listing-date">2024, March 27</span>
 </td>
@@ -633,7 +587,7 @@ Nepomuceno, A., Ghosal, A., Sandoval-Lentisco, A., &amp; Ioannidis, J. P. A. (20
 
 </tr>
 
-<tr data-index="10" data-categories="" data-listing-date-sort="1684792800000" data-listing-title-sort="The Chinese Open Science Network (COSN): Building an open science community from scratch">
+<tr data-index="11" data-categories="" data-listing-date-sort="1684792800000" data-listing-title-sort="The Chinese Open Science Network (COSN): Building an open science community from scratch">
 <td>
 <span class="listing-date">2023, May 23</span>
 </td>
@@ -646,7 +600,7 @@ Nepomuceno, A., Ghosal, A., Sandoval-Lentisco, A., &amp; Ioannidis, J. P. A. (20
 
 </tr>
 
-<tr data-index="11" data-categories="" data-listing-date-sort="1682546400000" data-listing-title-sort="Redesign open science for Asia, Africa, and Latin America">
+<tr data-index="12" data-categories="" data-listing-date-sort="1682546400000" data-listing-title-sort="Redesign open science for Asia, Africa, and Latin America">
 <td>
 <span class="listing-date">2023, April 27</span>
 </td>
@@ -659,7 +613,7 @@ Nepomuceno, A., Ghosal, A., Sandoval-Lentisco, A., &amp; Ioannidis, J. P. A. (20
 
 </tr>
 
-<tr data-index="12" data-categories="" data-listing-date-sort="1670972400000" data-listing-title-sort="Fostering a research integrity culture">
+<tr data-index="13" data-categories="" data-listing-date-sort="1670972400000" data-listing-title-sort="Fostering a research integrity culture">
 <td>
 <span class="listing-date">2022, December 14</span>
 </td>
@@ -672,7 +626,7 @@ Nepomuceno, A., Ghosal, A., Sandoval-Lentisco, A., &amp; Ioannidis, J. P. A. (20
 
 </tr>
 
-<tr data-index="13" data-categories="" data-listing-date-sort="1669158000000" data-listing-title-sort="Methods over metrics">
+<tr data-index="14" data-categories="" data-listing-date-sort="1669158000000" data-listing-title-sort="Methods over metrics">
 <td>
 <span class="listing-date">2022, November 23</span>
 </td>
@@ -685,7 +639,7 @@ Nepomuceno, A., Ghosal, A., Sandoval-Lentisco, A., &amp; Ioannidis, J. P. A. (20
 
 </tr>
 
-<tr data-index="14" data-categories="" data-listing-date-sort="1666648800000" data-listing-title-sort="Verification reports">
+<tr data-index="15" data-categories="" data-listing-date-sort="1666648800000" data-listing-title-sort="Verification reports">
 <td>
 <span class="listing-date">2022, October 25</span>
 </td>
@@ -698,7 +652,7 @@ Nepomuceno, A., Ghosal, A., Sandoval-Lentisco, A., &amp; Ioannidis, J. P. A. (20
 
 </tr>
 
-<tr data-index="15" data-categories="" data-listing-date-sort="1652652000000" data-listing-title-sort="Implementing open science as a teacher/mentor">
+<tr data-index="16" data-categories="" data-listing-date-sort="1652652000000" data-listing-title-sort="Implementing open science as a teacher/mentor">
 <td>
 <span class="listing-date">2022, May 16</span>
 </td>
@@ -711,7 +665,7 @@ Nepomuceno, A., Ghosal, A., Sandoval-Lentisco, A., &amp; Ioannidis, J. P. A. (20
 
 </tr>
 
-<tr data-index="16" data-categories="" data-listing-date-sort="1650924000000" data-listing-title-sort="Inclusivity and diversity in (open) science">
+<tr data-index="17" data-categories="" data-listing-date-sort="1650924000000" data-listing-title-sort="Inclusivity and diversity in (open) science">
 <td>
 <span class="listing-date">2022, April 26</span>
 </td>
@@ -724,7 +678,7 @@ Nepomuceno, A., Ghosal, A., Sandoval-Lentisco, A., &amp; Ioannidis, J. P. A. (20
 
 </tr>
 
-<tr data-index="17" data-categories="" data-listing-date-sort="1648677600000" data-listing-title-sort="Transparent data visualizations">
+<tr data-index="18" data-categories="" data-listing-date-sort="1648677600000" data-listing-title-sort="Transparent data visualizations">
 <td>
 <span class="listing-date">2022, March 31</span>
 </td>
@@ -737,7 +691,7 @@ Nepomuceno, A., Ghosal, A., Sandoval-Lentisco, A., &amp; Ioannidis, J. P. A. (20
 
 </tr>
 
-<tr data-index="18" data-categories="" data-listing-date-sort="1644966000000" data-listing-title-sort="New topics in responsible research practices">
+<tr data-index="19" data-categories="" data-listing-date-sort="1644966000000" data-listing-title-sort="New topics in responsible research practices">
 <td>
 <span class="listing-date">2022, February 16</span>
 </td>
@@ -750,7 +704,7 @@ Nepomuceno, A., Ghosal, A., Sandoval-Lentisco, A., &amp; Ioannidis, J. P. A. (20
 
 </tr>
 
-<tr data-index="19" data-categories="" data-listing-date-sort="1637017200000" data-listing-title-sort="Implementing open science as a research group">
+<tr data-index="20" data-categories="" data-listing-date-sort="1637017200000" data-listing-title-sort="Implementing open science as a research group">
 <td>
 <span class="listing-date">2021, November 16</span>
 </td>
@@ -763,7 +717,7 @@ Nepomuceno, A., Ghosal, A., Sandoval-Lentisco, A., &amp; Ioannidis, J. P. A. (20
 
 </tr>
 
-<tr data-index="20" data-categories="" data-listing-date-sort="1634767200000" data-listing-title-sort="Implementing open science as an individual researcher">
+<tr data-index="21" data-categories="" data-listing-date-sort="1634767200000" data-listing-title-sort="Implementing open science as an individual researcher">
 <td>
 <span class="listing-date">2021, October 21</span>
 </td>
@@ -776,7 +730,7 @@ Nepomuceno, A., Ghosal, A., Sandoval-Lentisco, A., &amp; Ioannidis, J. P. A. (20
 
 </tr>
 
-<tr data-index="21" data-categories="" data-listing-date-sort="1623880800000" data-listing-title-sort="Open data">
+<tr data-index="22" data-categories="" data-listing-date-sort="1623880800000" data-listing-title-sort="Open data">
 <td>
 <span class="listing-date">2021, June 17</span>
 </td>
@@ -789,7 +743,7 @@ Nepomuceno, A., Ghosal, A., Sandoval-Lentisco, A., &amp; Ioannidis, J. P. A. (20
 
 </tr>
 
-<tr data-index="22" data-categories="" data-listing-date-sort="1619388000000" data-listing-title-sort="Open materials">
+<tr data-index="23" data-categories="" data-listing-date-sort="1619388000000" data-listing-title-sort="Open materials">
 <td>
 <span class="listing-date">2021, April 26</span>
 </td>
@@ -802,7 +756,7 @@ Nepomuceno, A., Ghosal, A., Sandoval-Lentisco, A., &amp; Ioannidis, J. P. A. (20
 
 </tr>
 
-<tr data-index="23" data-categories="" data-listing-date-sort="1614207600000" data-listing-title-sort="Preregistration">
+<tr data-index="24" data-categories="" data-listing-date-sort="1614207600000" data-listing-title-sort="Preregistration">
 <td>
 <span class="listing-date">2021, February 25</span>
 </td>
@@ -815,7 +769,7 @@ Nepomuceno, A., Ghosal, A., Sandoval-Lentisco, A., &amp; Ioannidis, J. P. A. (20
 
 </tr>
 
-<tr data-index="24" data-categories="" data-listing-date-sort="1606950000000" data-listing-title-sort="But, what if I was wrong?">
+<tr data-index="25" data-categories="" data-listing-date-sort="1606950000000" data-listing-title-sort="But, what if I was wrong?">
 <td>
 <span class="listing-date">2020, December 3</span>
 </td>
@@ -828,7 +782,7 @@ Nepomuceno, A., Ghosal, A., Sandoval-Lentisco, A., &amp; Ioannidis, J. P. A. (20
 
 </tr>
 
-<tr data-index="25" data-categories="" data-listing-date-sort="1603926000000" data-listing-title-sort="How to deal with the problem?">
+<tr data-index="26" data-categories="" data-listing-date-sort="1603926000000" data-listing-title-sort="How to deal with the problem?">
 <td>
 <span class="listing-date">2020, October 29</span>
 </td>
@@ -841,7 +795,7 @@ Nepomuceno, A., Ghosal, A., Sandoval-Lentisco, A., &amp; Ioannidis, J. P. A. (20
 
 </tr>
 
-<tr data-index="26" data-categories="" data-listing-date-sort="1582758000000" data-listing-title-sort="What was the problem again?">
+<tr data-index="27" data-categories="" data-listing-date-sort="1582758000000" data-listing-title-sort="What was the problem again?">
 <td>
 <span class="listing-date">2020, February 27</span>
 </td>
